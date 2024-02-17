@@ -1,0 +1,214 @@
+local_backend: true
+
+logo_url: /favicon.svg
+
+backend:
+    name: "github"
+    repo: majesticostudio/majestico.co
+    branch: main
+    base_url: https://majestico-it.pages.dev/auth
+    automatic_deployments: true
+
+media_folder: "src/assets/images"
+public_folder: "@assets/images"
+
+collections:
+    - name: "pages"
+      icon: Description
+      label: "Pages"
+      files:
+          - label: "Home Page"
+            name: "home"
+            file: "src/content/pages/home.json"
+            extension: "json"
+            fields:
+                - { label: Title, name: title, widget: string }
+                - { label: Description, name: description, widget: markdown }
+                - label: Tags
+                  name: tags
+                  required: false
+                  widget: list
+                - label: "Hero"
+                  name: hero
+                  widget: object
+                  required: true
+                  collapsed: false
+                  fields:
+                      - { label: "Title 1 first line", name: "title1line1", widget: "string" }
+                      - { label: "Title 1 second line", name: "title1line2", widget: "string" }
+                      - { label: "Title 2 first line", name: "title2line1", widget: "string" }
+                      - { label: "Title 2 second line", name: "title2line2", widget: "string" }
+                      - { label: "Title 3 first line", name: "title3line1", widget: "string" }
+                      - { label: "Title 3 second line", name: "title3line2", widget: "string" }
+                      - { label: "Title 4 first line", name: "title4line1", widget: "string" }
+                      - { label: "Title 4 second line", name: "title4line2", widget: "string" }
+                      - { label: "Title 5 first line", name: "title5line1", widget: "string" }
+                      - { label: "Title 5 second line", name: "title5line2", widget: "string" }
+                - label: "Team section"
+                  name: dreamteam
+                  widget: object
+                  required: true
+                  collapsed: false
+                  fields:
+                      - { label: "Title", name: "title", widget: "string" }
+                      - { label: "Button title", name: "buttonTitle", widget: "string" }
+                - label: "What we do section"
+                  name: whatwedo
+                  widget: object
+                  required: true
+                  collapsed: false
+                  fields:
+                      - { label: "Title", name: "title", widget: "string" }
+                      - {
+                            label: "First button",
+                            name: "button1",
+                            widget: "object",
+                            fields:
+                                [
+                                    { label: "Title", name: "title", widget: "string" },
+                                    { label: "Category", name: "category", widget: "string" },
+                                    { label: "Description", name: "description", widget: "string" },
+                                ],
+                        }
+                      - {
+                            label: "Second button",
+                            name: "button2",
+                            widget: "object",
+                            fields:
+                                [
+                                    { label: "Title", name: "title", widget: "string" },
+                                    { label: "Category", name: "category", widget: "string" },
+                                    { label: "Description", name: "description", widget: "string" },
+                                ],
+                        }
+                      - {
+                            label: "Third button",
+                            name: "button3",
+                            widget: "object",
+                            fields:
+                                [
+                                    { label: "Title", name: "title", widget: "string" },
+                                    { label: "Category", name: "category", widget: "string" },
+                                    { label: "Description", name: "description", widget: "string" },
+                                ],
+                        }
+                      - {
+                            label: "Fourth button",
+                            name: "button4",
+                            widget: "object",
+                            fields:
+                                [
+                                    { label: "Title", name: "title", widget: "string" },
+                                    { label: "Category", name: "category", widget: "string" },
+                                    { label: "Description", name: "description", widget: "string" },
+                                ],
+                        }
+                - label: "What we've made section"
+                  name: whatwemade
+                  widget: object
+                  required: true
+                  collapsed: false
+                  fields:
+                      - { label: "Title", name: "title", widget: "string" }
+                      - { label: "Subtitle", name: "subtitle", widget: "string" }
+                      - { label: "Button Title", name: "buttonTitle", widget: "string" }
+                - label: "How we do it"
+                  name: howwedoit
+                  widget: object
+                  required: true
+                  collapsed: false
+                  fields:
+                      - { label: "Title", name: "title", widget: "string" }
+                      - {
+                            label: "First box",
+                            name: "box1",
+                            widget: "object",
+                            fields:
+                                [
+                                    { label: "Title", name: "title", widget: "string" },
+                                    { label: "Description", name: "description", widget: "string" },
+                                ],
+                        }
+                      - {
+                            label: "Second box",
+                            name: "box2",
+                            widget: "object",
+                            fields:
+                                [
+                                    { label: "Title", name: "title", widget: "string" },
+                                    { label: "Description", name: "description", widget: "string" },
+                                ],
+                        }
+                      - {
+                            label: "Third box",
+                            name: "box3",
+                            widget: "object",
+                            fields:
+                                [
+                                    { label: "Title", name: "title", widget: "string" },
+                                    { label: "Description", name: "description", widget: "string" },
+                                ],
+                        }
+                      - {
+                            label: "Fourth box",
+                            name: "box4",
+                            widget: "object",
+                            fields:
+                                [
+                                    { label: "Title", name: "title", widget: "string" },
+                                    { label: "Description", name: "description", widget: "string" },
+                                ],
+                        }
+                - label: "What they say"
+                  name: whattheysay
+                  widget: object
+                  required: true
+                  collapsed: false
+                  fields:
+                      - { label: "Title", name: "title", widget: "string" }
+                - label: "Currently working on"
+                  name: currentlyworkingon
+                  widget: object
+                  required: true
+                  collapsed: false
+                  fields:
+                      - { label: "Title", name: "title", widget: "string" }
+                - label: "Contacts"
+                  name: contacts
+                  widget: object
+                  required: true
+                  collapsed: false
+                  fields:
+                      - { label: "Address (line 1)", name: "addressLine1", widget: "string" }
+                      - { label: "Address (line 2)", name: "addressLine2", widget: "string" }
+                      - { label: "Email", name: "email", widget: "string" }
+          - label: "Projects Page"
+            name: "projects"
+            file: "src/content/pages/projects.json"
+            extension: "json"
+            fields:
+                - { label: Title, name: title, widget: string }
+                - { label: Description, name: description, widget: markdown }
+                - label: Tags
+                  name: tags
+                  required: false
+                  widget: list
+          - label: "Team Page"
+            name: "team"
+            file: "src/content/pages/team.json"
+            extension: "json"
+            fields:
+                - { label: Title, name: title, widget: string }
+                - { label: Description, name: description, widget: markdown }
+                - label: Tags
+                  name: tags
+                  required: false
+                  widget: list
+                - label: "Content"
+                  name: content
+                  widget: object
+                  required: true
+                  collapsed: false
+                  fields:
+                      - { label: "Title", name: "title", widget: "string" }
+                      - { label: "Subtitle", name: "subtitle", widget: "string" }
