@@ -5,6 +5,7 @@
 
 <a href="https://astro.build/">![Astro](.github/images/astro-icon.png)</a>
 <a href="https://tailwindcss.com/">![Tailwind](.github/images/tailwind-icon.png)</a>
+<a href="https://gsap.com/">![Tailwind](.github/images/gsap.webp)</a>
 
 Mintaka is a template made with [Astro](https://astro.build), [Tailwind](https://tailwindcss.com/) and [Gsap](https://gsap.com/)
 
