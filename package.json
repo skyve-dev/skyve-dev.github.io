@@ -28,7 +28,7 @@
 		"@astrojs/tailwind": "^5.1.0",
 		"@cloudflare/pages-plugin-mailchannels": "^0.1.2",
 		"astro": "^4.2.1",
-		"gsap": "npm:@gsap/business@^3.12.5",
+		"gsap": "npm:@gsap/business@3.12.5",
 		"tailwindcss": "^3.4.1"
 	},
 	"devDependencies": {
@@ -45,11 +45,12 @@
 		"prettier": "^3.2.4",
 		"prettier-plugin-astro": "^0.13.0",
 		"prettier-plugin-tailwindcss": "^0.5.11",
-		"sharp": "^0.33.4",
+		"sharp": "0.33.2",
 		"unlighthouse": "^0.10.4"
 	},
 	"overrides": {
-		"sharp": "0.33.4"
+		"gsap": "3.12.5",
+		"sharp": "0.33.2"
 	},
 	"prettier": {
 		"tabWidth": 4,
