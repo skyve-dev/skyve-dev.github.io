@@ -25,7 +25,7 @@ This project was strongly inspired by a template found on Webflow which I can lo
 
 ## Preview
 
-![Astros Preview](.github/images/screenshot.png)
+![Mintaka Preview](.github/images/majestico_share.gif)
 
 ## 🧪 Test
 
