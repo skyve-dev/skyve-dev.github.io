@@ -1,5 +1,8 @@
 # [Mintaka](https://mintaka.majestico.co)
 
+> [!IMPORTANT]
+> Currently this theme only works with the premium version of GSAP, the steps to use the standard version will be available in the future.
+
 <a href="https://astro.build/">![Astro](.github/images/astro-icon.png)</a>
 <a href="https://tailwindcss.com/">![Tailwind](.github/images/tailwind-icon.png)</a>
 
