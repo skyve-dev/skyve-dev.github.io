@@ -49,7 +49,6 @@
 		"unlighthouse": "^0.10.4"
 	},
 	"overrides": {
-		"gsap": "^3.12.5",
 		"sharp": "0.33.4"
 	},
 	"prettier": {
