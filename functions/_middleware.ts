@@ -1,13 +1,14 @@
 import mailChannelsPlugin from "@cloudflare/pages-plugin-mailchannels";
+import type { PagesFunction } from "@cloudflare/workers-types";
 
-export const onRequest: PagesFunction = (context) => {
-	var data = context?.data;
+export const onRequest: PagesFunction = (context: any) => {
+	const data = context?.data;
 
 	return mailChannelsPlugin({
 		personalizations: [
 			{
-				to: [{ name: "Giulio Zanchetta", email: "giulio.zanchetta@majestico.co" }],
-				dkim_domain: "majestico.co",
+				to: [{ name: "Test", email: "test@mintaka.co" }],
+				dkim_domain: "mintaka.co",
 				dkim_selector: "mailchannels",
 				dkim_private_key: context.env.DKIM_PRIVATE_KEY,
 				subject: `Website form submission from ${data?.name}`,
@@ -15,7 +16,7 @@ export const onRequest: PagesFunction = (context) => {
 		],
 		from: {
 			name: data?.name ?? "Enquiry",
-			email: "no-reply@majestico.co",
+			email: "no-reply@mintaka.co",
 		},
 		respondWith: () =>
 			new Response(null, {

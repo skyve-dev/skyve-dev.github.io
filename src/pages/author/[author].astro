@@ -1,8 +1,8 @@
 ---
-import BaseLayout from "@layouts/BaseLayout.astro";
-import Author from "@components/blog/Author.astro";
 import { getCollection } from "astro:content";
-import { type AstroSeoProps } from "@astrolib/seo";
+import type { AstroSeoProps } from "@astrolib/seo";
+import Author from "@components/blog/Author.astro";
+import BaseLayout from "@layouts/BaseLayout.astro";
 
 export async function getStaticPaths() {
 	const authors = await getCollection("authors");
@@ -20,7 +20,7 @@ const author = Astro.props;
 const seo: AstroSeoProps = {
 	title: author.data.name,
 	description: author.data.description,
-	canonical: `https://majestico.co/author/${author.slug}/`,
+	canonical: `https://mintaka.co/author/${author.slug}/`,
 };
 ---
 

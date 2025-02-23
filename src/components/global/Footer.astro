@@ -1,7 +1,7 @@
 ---
-import { Icon } from "astro-icon/components";
 import Newsletter from "@components/blog/Newsletter.astro";
-import { getLangFromUrl, useTranslations, useTranslatedPath } from "@i18n/utils";
+import { getLangFromUrl, useTranslatedPath, useTranslations } from "@i18n/utils";
+import { Icon } from "astro-icon/components";
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
@@ -13,10 +13,10 @@ const translatePath = useTranslatedPath(lang);
 	<div class="relative grid grid-cols-6 gap-y-20 lg:grid-cols-12 lg:text-xl">
 		<div class="col-span-6 col-start-1 grid grid-cols-6 gap-6 lg:col-span-8">
 			<div class="col-span-2 col-start-4 flex flex-col gap-2 lg:col-span-3">
-				<a href="https://twitter.com/majesticostudio/" target="_blank">Twitter / X</a>
-				<a href="https://www.instagram.com/majestico.it/" target="_blank">Instagram</a>
-				<a href="https://www.linkedin.com/company/majesticostudio" target="_blank">Linkedin</a>
-				<a href="https://tiktok.com/@majestico.it" target="_blank">TikTok</a>
+				<a href="https://twitter.com//" target="_blank">Twitter / X</a>
+				<a href="https://www.instagram.com//" target="_blank">Instagram</a>
+				<a href="https://www.linkedin.com/" target="_blank">Linkedin</a>
+				<a href="https://tiktok.com/" target="_blank">TikTok</a>
 			</div>
 			<div class="col-span-3 row-start-1 lg:col-span-2 lg:col-start-4 lg:row-start-auto">
 				<div class="flex flex-col gap-2">
@@ -32,7 +32,7 @@ const translatePath = useTranslatedPath(lang);
 			<div class="col-span-3 mt-10 lg:col-start-4">
 				<div class="relative flex flex-col overflow-hidden"></div>
 				<div class="relative mt-1 flex h-8 flex-col overflow-hidden">
-					<a href="mailto:hello@majestico.it" class="block cursor-pointer overflow-hidden">hello@majestico.it</a>
+					<a href="mailto:test@mintaka.co" class="block cursor-pointer overflow-hidden">test@mintaka.co</a>
 				</div>
 			</div>
 		</div>
@@ -44,7 +44,7 @@ const translatePath = useTranslatedPath(lang);
 		</div>
 	</div>
 	<div class="relative mt-4 flex w-full items-end justify-between gap-y-4 text-sm lg:text-xl lg:font-normal">
-		<div>©2023 MAJESTICO</div>
+		<div>©2023 YOUR COMPANY</div>
 		<!-- https://codepen.io/fliseno1k/pen/WNboLBy -->
 		<button
 			id="go-top-button"

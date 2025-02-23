@@ -1,9 +1,9 @@
 ---
 import { Image } from "astro:assets";
 import { getCollection } from "astro:content";
-import WokCard from "@components/work/WokCard.astro";
 import yourProjectImage from "@assets/images/projects/yourProject.png";
-import { getLangFromUrl, useTranslations, useTranslatedPath } from "@i18n/utils";
+import WokCard from "@components/work/WokCard.astro";
+import { getLangFromUrl, useTranslatedPath, useTranslations } from "@i18n/utils";
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
@@ -45,19 +45,6 @@ const allProjects = (await getCollection("projects"))
 					/>
 				))
 			}
-			<li class:list={["flex flex-col", className]}>
-				<a href={translatePath("/contact/")} aria-label={t("contactus")}>
-					<Image class="h-[25rem] rounded-md object-cover lg:rounded-lg" src={yourProjectImage} alt="Your project" />
-					<div class="px-2 py-8">
-						<div class="flex items-center justify-between space-x-8 text-base font-medium">
-							<h3 class="font-mono text-lg font-medium uppercase tracking-wide md:mt-0 lg:text-xl">{t("projects.yours")}</h3>
-							<a href={translatePath("/contact/")} aria-label={t("contactus")} class="text-base hover:text-primary-700">
-								{t("contactus")} &nbsp; &rarr;
-							</a>
-						</div>
-					</div>
-				</a>
-			</li>
 		</ol>
 	</div>
 </section>

@@ -1,8 +1,8 @@
 ---
 import { getCollection } from "astro:content";
-import BaseLayout from "@layouts/BaseLayout.astro";
+import type { AstroSeoProps } from "@astrolib/seo";
 import Authors from "@components/blog/Authors.astro";
-import { type AstroSeoProps } from "@astrolib/seo";
+import BaseLayout from "@layouts/BaseLayout.astro";
 
 const allAuthors = await getCollection("authors");
 const pageTitle = "Tag Index";
@@ -11,7 +11,7 @@ const seo: AstroSeoProps = {
 	title: "Authors - Majestico Studio: Meet Our Expert Team",
 	description:
 		"Discover the creative minds behind Majestico Studio. Our authors are industry experts in web design, SEO, and digital marketing, sharing valuable insights.",
-	canonical: "https://majestico.co/author/",
+	canonical: "https://mintaka.co/author/",
 };
 ---
 

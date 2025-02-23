@@ -17,18 +17,18 @@ const { seo: seoProp } = Astro.props;
 
 const lang = getLangFromUrl(Astro.url);
 
-const shareImage = new URL("/images/meta/majestico_share.gif", Astro.site).toString();
+const shareImage = new URL("/images/meta/mintaka_share.gif", Astro.site).toString();
 
 const defaultSeo: AstroSeoProps = {
-	title: "Web Agency Leading in Performant Web Design Solutions - Majestico Studio",
+	title: "Web Agency Leading in Performant Web Design Solutions - Mintaka Studio",
 	description:
-		"Majestico Studio excels in creating fast, user-friendly websites with a focus on aesthetic design and SEO optimization, ensuring a standout online presence",
-	canonical: "https://majestico.co",
+		"Mintaka Studio excels in creating fast, user-friendly websites with a focus on aesthetic design and SEO optimization, ensuring a standout online presence",
+	canonical: "https://mintaka.co",
 	openGraph: {
-		url: "https://majestico.co",
-		title: "Web Agency Leading in Performant Web Design Solutions - Majestico Studio",
+		url: "https://mintaka.co",
+		title: "Web Agency Leading in Performant Web Design Solutions - Mintaka Studio",
 		description:
-			"Majestico Studio excels in creating fast, user-friendly websites with a focus on aesthetic design and SEO optimization, ensuring a standout online presence",
+			"Mintaka Studio excels in creating fast, user-friendly websites with a focus on aesthetic design and SEO optimization, ensuring a standout online presence",
 		images: [
 			{
 				url: shareImage,
@@ -45,11 +45,11 @@ const defaultSeo: AstroSeoProps = {
 				type: "image/gif",
 			},
 		],
-		site_name: "Majestico",
+		site_name: "Mintaka",
 	},
 	twitter: {
-		handle: "@majesticostudio",
-		site: "@majesticostudio",
+		handle: "@mintakastudio",
+		site: "@mintakastudio",
 		cardType: "summary_large_image",
 	},
 	additionalMetaTags: [
