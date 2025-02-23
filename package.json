@@ -45,8 +45,12 @@
 		"prettier": "^3.2.4",
 		"prettier-plugin-astro": "^0.13.0",
 		"prettier-plugin-tailwindcss": "^0.5.11",
-		"sharp": "^0.33.2",
+		"sharp": "^0.33.4",
 		"unlighthouse": "^0.10.4"
+	},
+	"overrides": {
+		"gsap": "^3.12.5",
+		"sharp": "0.33.4"
 	},
 	"prettier": {
 		"tabWidth": 4,
