@@ -12,7 +12,15 @@ export async function getStaticPaths() {
 
 	const uniqueTags = [...new Set(allPosts.flatMap((post) => post.data.tags))];
 	return uniqueTags.map((tag) => {
-		const filteredPosts = allPosts.filter((post) => post.data.tags.includes(tag));
+		const filteredPosts = allPosts.filter((post) => post.data.tags.includes(tag))
+			.map(post => {
+				// Remove language prefix from slug
+				const [postLang, ...slugParts] = post.slug.split("/");
+				return {
+					...post,
+					slug: slugParts.join("/")
+				};
+			});
 		return {
 			params: { tag },
 			props: { posts: filteredPosts },
