@@ -13,7 +13,8 @@ export default defineConfig({
 			},
 		},
 	},
-	site: "https://mintaka.co",
+	outDir: "docs",
+	site: "https://skyve-dev.github.io",
 	i18n: {
 		defaultLocale: "en",
 		locales: ["en", "it"],
@@ -36,5 +37,6 @@ export default defineConfig({
 		sitemap(),
 		mdx(),
 		icon(),
-	],
+	]
+
 });
