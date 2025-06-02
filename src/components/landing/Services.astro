@@ -5,6 +5,13 @@ import designSvg from "@assets/images/services/creative-designer-doing-multitask
 import mobileSvg from "@assets/images/services/mobile-app-ui-ux-design.svg?raw";
 import seoSvg from "@assets/images/services/seo-link-building.svg?raw";
 import websiteSvg from "@assets/images/services/website-ui-ux-development.svg?raw";
+
+import webApp from "@assets/images/services/websiteApp.svg?raw";
+import mobileApp from "@assets/images/services/mobileApp.svg?raw";
+import aiApp from "@assets/images/services/aiApp.svg?raw";
+import dataAnalyticsApp from "@assets/images/services/dataAnalytics.svg?raw";
+
+
 import { getLangFromUrl, useTranslations, useTranslatedPath } from "@i18n/utils";
 
 const lang = getLangFromUrl(Astro.url);
@@ -17,32 +24,31 @@ const points = [
 	{
 		title: t("websites.title"),
 		content: t("websites.content"),
-		image: websiteSvg,
+		image: webApp,
 	},
 	{
 		title: t("apps.title"),
 		content: t("apps.content"),
-		image: mobileSvg,
+		image: mobileApp,
 	},
 	{
 		title: t("uiux.title"),
 		content: t("uiux.content"),
-		image: designSvg,
+		image: aiApp,
 	},
 	{
 		title: t("seo.title"),
 		content: t("seo.content"),
-		image: seoSvg,
+		image: dataAnalyticsApp,
 	},
-	{
-		title: t("advertising.title"),
-		content: t("advertising.content"),
-		image: advertisingSvg,
-	},
+	// {
+	// 	title: t("advertising.title"),
+	// 	content: t("advertising.content"),
+	// 	image: advertisingSvg,
+	// },
 ];
 ---
-
-<section id="services" class:list={["section home-dark-section services-section relative", className]}>
+<section id="services" class:list={["section work-preview-section home-dark-section services-section relative", className]}>
 	<div class="wrapper col-span-12 h-screen w-full">
 		<h2 class="sr-only">{t("services")}</h2>
 		<div class="indicators absolute left-0 top-0 mt-[10vh] hidden h-[80vh] w-1 flex-col justify-between gap-2">
