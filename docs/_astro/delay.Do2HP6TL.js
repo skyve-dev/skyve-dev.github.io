@@ -1,0 +1,1 @@
+import{t as r,f as d,c,s as l}from"./SplitText.h9nTZwhX.js";function f(e,s){const t=r.now(),n=({timestamp:o})=>{const a=o-t;a>=s&&(c(n),e(a-s))};return d.setup(n,!0),()=>c(n)}function p(e,s){return f(e,l(s))}export{p as d};

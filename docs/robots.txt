@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://skyve-dev.github.io/sitemap-index.xml
