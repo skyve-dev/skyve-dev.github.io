@@ -5,177 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6909f15d-a125-4b71-b857-b8ec46af71d7" name="Changes" comment="Updated for skyve v2">
-      <change beforePath="$PROJECT_DIR$/.github/images/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/images/Tailwind_CSS_Logo.svg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/images/alpine-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/images/astro-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/images/gsap.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/images/image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/images/majestico_share.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/images/pagespeed-small.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/images/screenshot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/images/tailwind-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/unlighthouse.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/bun.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/skyve-dev.github.io.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nojekyll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.npmrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/extensions.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/tailwind.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/astro.config.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bun.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bunfig.toml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cspell.config.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/_astro/Service.astro_astro_type_script_index_0_lang.BAK2wI77.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/favicon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/favicon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/king-hotel/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/king-hotel/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/royal-king/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/royal-king/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/varaus/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/varaus/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/api/auth.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/api/callback.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/.nojekyll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/CNAME" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/apple-touch-icon-180x180.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Midnight.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/meta/majestico_share.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/texture.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.webmanifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/maskable-icon-512x512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/maskable-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pwa-192x192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pwa-512x512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/pwa-64x64.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/authors/mintaka.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/blog/ai-creativity.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/blog/digital-storytelling.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/blog/remote-work-tech.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/blog/sustainable-tech.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/global/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/global/logoFull.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/projects/artisanlens.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/projects/lightcraft.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/projects/pixelcraft.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/projects/studiovision.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/projects/yourProject.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/services/advertising.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/services/aiApp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/services/aiApp.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/services/creative-designer-doing-multitasking.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/services/dataAnalytics.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/services/dataAnalytics.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/services/mobile-app-ui-ux-design.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/services/mobileApp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/services/mobileApp.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/services/seo-link-building.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/services/website-ui-ux-development.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/services/websiteApp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/services/websiteApp.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BaseHead.astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/blog/Articles.astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/blog/Author.astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/blog/Authors.astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/blog/Comments.astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/blog/Cta.astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/blog/Entry.astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/blog/Newsletter.astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/blog/Tag.astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/blog/Tags.astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/forms/Contact.astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/global/BackgroundTexture.astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/global/BlobAnimation.astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/global/BlobCursorFollower.astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/global/Footer.astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/global/GrainyGradient.astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/global/LinkBlend.astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/global/Navigation.astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/global/Title.astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/infopages/Error404.astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/infopages/Faq.astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/infopages/Privacy.astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/infopages/Terms.astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/infopages/ThankYou.astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/landing/AllInOne.astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/landing/Cta.astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/landing/Facts.astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/landing/Faq.astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/landing/Hero.astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/landing/Services.astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/landing/Tagline.astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/landing/Testimonials.astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/landing/WorkPreview.astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/work/WokCard.astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/authors/en/marcus-chen.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/authors/it/marcus-chen.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/config.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/posts/en/ai-and-human-creativity.mdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/posts/en/the-art-of-digital-storytelling.mdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/posts/en/the-evolution-of-remote-work-technologies.mdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/posts/en/the-rise-of-sustainable-technology.mdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/posts/it/ai-and-human-creativity.mdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/posts/it/the-art-of-digital-storytelling.mdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/posts/it/the-evolution-of-remote-work-technologies.mdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/posts/it/the-rise-of-sustainable-technology.mdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/projects/en/artisanlens.mdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/projects/en/lightcraft.mdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/projects/en/pixelcraft.mdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/projects/en/studiovision.mdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/projects/it/artisanlens.mdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/projects/it/lightcraft.mdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/projects/it/pixelcraft.mdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/projects/it/studiovision.mdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/env.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/i18n/ui.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/i18n/utils.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/BaseLayout.astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/MarkdownPostLayout.astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/404.astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/author/[author].astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/author/index.astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/blog/[...slug].astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/blog/index.astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/contact.astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/it/404.astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/it/author/[author].astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/it/author/index.astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/it/blog/[...slug].astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/it/blog/index.astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/it/contact.astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/it/index.astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/it/privacy.astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/it/tags/[tag].astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/it/tags/index.astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/it/terms.astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/it/thank-you.astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/it/work/[...slug].astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/privacy.astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/rss.xml.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/tags/[tag].astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/tags/index.astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/terms.astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/thank-you.astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/work/[...slug].astro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/global.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.cjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unlighthouse.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,7 +70,7 @@
       <workItem from="1749439530670" duration="5812000" />
       <workItem from="1749496205392" duration="1835000" />
       <workItem from="1749661543675" duration="3348000" />
-      <workItem from="1749667049907" duration="29000" />
+      <workItem from="1749667049907" duration="903000" />
     </task>
     <task id="LOCAL-00001" summary="Update version changes">
       <option name="closed" value="true" />
@@ -282,7 +112,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749497555178</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Updated for skyve v2">
+      <option name="closed" value="true" />
+      <created>1749667116375</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1749667116375</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
