@@ -1,5 +1,5 @@
 {
-	"manifestHash": "ae9bue",
+	"manifestHash": "ob18w7",
 	"symbols": {},
 	"mapping": {},
 	"bundles": {
@@ -35,9 +35,9 @@
 			],
 			"interactivity": 0
 		},
-		"..\\_astro\\search.CsNkgfHB.js": {
-			"size": 7649,
-			"total": 14159,
+		"..\\_astro\\search.Dg4od8m8.js": {
+			"size": 7654,
+			"total": 14164,
 			"imports": [
 				"..\\_astro\\core.min.BkGANbFT.js",
 				"..\\_astro\\qwik-preloader.8fLela9Y.js"
@@ -82,7 +82,7 @@
 		"..\\_astro\\qwik-preloader.8fLela9Y.js",
 		"..\\_astro\\root.BMvD8ikb.js",
 		0,
-		"..\\_astro\\search.CsNkgfHB.js",
+		"..\\_astro\\search.Dg4od8m8.js",
 		0
 	]
 }
