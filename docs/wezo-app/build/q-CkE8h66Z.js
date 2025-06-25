@@ -1,0 +1,1 @@
+import{a as t}from"./q-m_DJGWoB.js";import"./q-BWVeZfbH.js";import"./q--XaTlH3S.js";import"./q-Bq4Pgr2Y.js";/* empty css          */const e=(r,o)=>{localStorage.setItem(t,o.scrollTop)};export{e as s_HXiyQzy15n8};
