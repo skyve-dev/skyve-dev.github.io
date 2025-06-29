@@ -83,6 +83,7 @@
       <workItem from="1751169002363" duration="1452000" />
       <workItem from="1751187358807" duration="1069000" />
       <workItem from="1751207893847" duration="831000" />
+      <workItem from="1751218148721" duration="1109000" />
     </task>
     <task id="LOCAL-00001" summary="Update version changes">
       <option name="closed" value="true" />
@@ -180,7 +181,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751187449757</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Update meta and content details in wezo-app index.html">
+      <option name="closed" value="true" />
+      <created>1751218402672</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1751218402672</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
