@@ -1,0 +1,1 @@
+import{B as o}from"./q-DWsWQaij.js";import"./q-BDb8A3xp.js";const s=i=>o("div",{style:{zIndex:i.visible?0:-1,position:"absolute",top:0,width:"100%",height:"100%",display:"flex",flexDirection:"column",background:"whitesmoke",paddingTop:"4.1rem",paddingBottom:"5rem"}},null,"This is favorites",3,"sE_0");export{s as s_5SRgQwSfCFk};
