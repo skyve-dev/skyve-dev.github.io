@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6909f15d-a125-4b71-b857-b8ec46af71d7" name="Changes" comment="Remove unused Qwik-related build files and dependencies from wezo-app">
+    <list default="true" id="6909f15d-a125-4b71-b857-b8ec46af71d7" name="Changes" comment="Update meta and content details in wezo-app index.html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,6 +81,8 @@
       <workItem from="1750943199354" duration="129000" />
       <workItem from="1751155473619" duration="2648000" />
       <workItem from="1751169002363" duration="1452000" />
+      <workItem from="1751187358807" duration="1069000" />
+      <workItem from="1751207893847" duration="831000" />
     </task>
     <task id="LOCAL-00001" summary="Update version changes">
       <option name="closed" value="true" />
@@ -170,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751169076915</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Update meta and content details in wezo-app index.html">
+      <option name="closed" value="true" />
+      <created>1751187449757</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1751187449757</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +193,7 @@
     <MESSAGE value="Replace the" />
     <MESSAGE value="Remove deprecated assets and Qwik-related dependencies from wezo-app" />
     <MESSAGE value="Remove unused Qwik-related build files and dependencies from wezo-app" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove unused Qwik-related build files and dependencies from wezo-app" />
+    <MESSAGE value="Update meta and content details in wezo-app index.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update meta and content details in wezo-app index.html" />
   </component>
 </project>
