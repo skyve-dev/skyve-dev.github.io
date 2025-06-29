@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6909f15d-a125-4b71-b857-b8ec46af71d7" name="Changes" comment="Remove unused Qwik-related JavaScript and JSON files from wezo-app">
+    <list default="true" id="6909f15d-a125-4b71-b857-b8ec46af71d7" name="Changes" comment="Remove deprecated assets and Qwik-related dependencies from wezo-app">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,6 +79,7 @@
       <workItem from="1750819859869" duration="592000" />
       <workItem from="1750871781968" duration="638000" />
       <workItem from="1750943199354" duration="129000" />
+      <workItem from="1751155473619" duration="1017000" />
     </task>
     <task id="LOCAL-00001" summary="Update version changes">
       <option name="closed" value="true" />
@@ -136,7 +137,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750871964153</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Remove deprecated assets and Qwik-related dependencies from wezo-app">
+      <option name="closed" value="true" />
+      <created>1751155718754</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1751155718754</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +155,8 @@
     <MESSAGE value="Update version changes" />
     <MESSAGE value="Updated for skyve v2" />
     <MESSAGE value="Remove unused Qwik-related JavaScript and JSON files from wezo-app" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove unused Qwik-related JavaScript and JSON files from wezo-app" />
+    <MESSAGE value="Replace the" />
+    <MESSAGE value="Remove deprecated assets and Qwik-related dependencies from wezo-app" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove deprecated assets and Qwik-related dependencies from wezo-app" />
   </component>
 </project>
