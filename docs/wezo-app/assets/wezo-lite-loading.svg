@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="154.645" height="116.435" viewBox="0 0 40.917 30.807">
+  <defs>
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4CAF50"/> <stop offset="100%" stop-color="#8BC34A"/> </linearGradient>
+
+    <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFC107"/> <stop offset="100%" stop-color="#FF5722"/> </linearGradient>
+  </defs>
+
+  <style>
+    @keyframes gradientFade {
+      0% { opacity: 1; }
+      50% { opacity: 0; } /* Fade out gradient1, revealing gradient2 underneath */
+      100% { opacity: 1; }
+    }
+    @keyframes gradientFadeReverse {
+      0% { opacity: 0; }
+      50% { opacity: 1; } /* Fade in gradient2 */
+      100% { opacity: 0; }
+    }
+
+    .loader-path {
+      stroke-width: .264583;
+      /* Original transform applied to both paths */
+      transform: translate(-77.255px, -135.74px);
+    }
+
+    .path-gradient1 {
+      fill: url(#gradient1);
+      animation: gradientFade 3s infinite ease-in-out; /* Control the speed and timing */
+    }
+
+    .path-gradient2 {
+      fill: url(#gradient2);
+      /* This path will be behind, appearing as gradient1 fades */
+      animation: gradientFadeReverse 3s infinite ease-in-out;
+    }
+  </style>
+
+  <path class="loader-path path-gradient1" d="M77.683 142.507s1.377-6.122 6.582-5.587c5.663.766 3.367 11.098 3.367 11.098s6.505-13.011 13.24-12.246c6.43 1.99 3.75 10.18 3.75 10.18s8.496-11.864 12.629-8.573c2.985 2.296-1.99 7.424-4.898 12.782-5.358 11.097-6.123 13.24-11.71 12.475-5.165-1.812-4.286-10.485-4.286-10.485s-4.669 14.77-10.868 14.388c-10.417.228-8.113-21.889-7.806-24.032z"/>
+
+  <path class="loader-path path-gradient2" d="M77.683 142.507s1.377-6.122 6.582-5.587c5.663.766 3.367 11.098 3.367 11.098s6.505-13.011 13.24-12.246c6.43 1.99 3.75 10.18 3.75 10.18s8.496-11.864 12.629-8.573c2.985 2.296-1.99 7.424-4.898 12.782-5.358 11.097-6.123 13.24-11.71 12.475-5.165-1.812-4.286-10.485-4.286-10.485s-4.669 14.77-10.868 14.388c-10.417.228-8.113-21.889-7.806-24.032z"/>
+
+</svg>
