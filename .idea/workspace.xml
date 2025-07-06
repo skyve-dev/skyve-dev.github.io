@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6909f15d-a125-4b71-b857-b8ec46af71d7" name="Changes" comment="Remove deprecated CSS and JavaScript build files from wezo-app" />
+    <list default="true" id="6909f15d-a125-4b71-b857-b8ec46af71d7" name="Changes" comment="Remove unused and deprecated JavaScript and CSS build files from wezo-app">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,7 +85,7 @@
       <workItem from="1751207893847" duration="831000" />
       <workItem from="1751218148721" duration="1790000" />
       <workItem from="1751774238980" duration="1178000" />
-      <workItem from="1751833564739" duration="568000" />
+      <workItem from="1751833564739" duration="1251000" />
     </task>
     <task id="LOCAL-00001" summary="Update version changes">
       <option name="closed" value="true" />
@@ -205,7 +207,23 @@
       <option name="project" value="LOCAL" />
       <updated>1751833801086</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Remove unused and deprecated JavaScript and CSS build files from wezo-app">
+      <option name="closed" value="true" />
+      <created>1751834488864</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1751834488864</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Remove unused and deprecated JavaScript and CSS build files from wezo-app">
+      <option name="closed" value="true" />
+      <created>1751834524004</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1751834524004</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,6 +239,7 @@
     <MESSAGE value="Update meta and content details in wezo-app index.html" />
     <MESSAGE value="Remove outdated build files and update dependencies in wezo-app" />
     <MESSAGE value="Remove deprecated CSS and JavaScript build files from wezo-app" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove deprecated CSS and JavaScript build files from wezo-app" />
+    <MESSAGE value="Remove unused and deprecated JavaScript and CSS build files from wezo-app" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove unused and deprecated JavaScript and CSS build files from wezo-app" />
   </component>
 </project>
