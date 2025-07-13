@@ -1,0 +1,1 @@
+import{u as t}from"./q-DZXsFSfu.js";import{_hW as m}from"./q-DZXsFSfu.js";import"./q-BUuyHtLx.js";const c=e=>{const[s]=t(),o=[...s.bookmarkedVillas],r=o.indexOf(e);r===-1?o.push(e):o.splice(r,1),s.bookmarkedVillas=o,localStorage.setItem("villaBookmarks",JSON.stringify(o))};export{m as _hW,c as s_AG5E0kI6sYc};
